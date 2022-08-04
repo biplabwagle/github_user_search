@@ -12,8 +12,9 @@ foo@foobar: npm install
 
 Please note the if you want to download and use this project, you will have to setup .env file in the root folder of the project.
 You can use the variable names provided below with corresponding value. You will have to sign up at [Auth0](https://auth0.com/).
-REACT_APP_AUTHO_DOMAIN = domain from auth0
-REACT_APP_CLIENTID = clientID from auth0
+
+1. REACT_APP_AUTHO_DOMAIN = domain from auth0
+2. REACT_APP_CLIENTID = clientID from auth0
 
 # Spinning the dev server
 
@@ -31,7 +32,7 @@ foo@foobar: npm run build
 
 This command will generate the production build for the app
 
-## Gihthub API
+## Github API
 
 - [Root Endpoint](https://api.github.com)
 - [Get Specific User](https://api.github.com/users/biplabwagle)
